@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 60px;
+}
+
+li {
+    height: 10px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(100, 94, 184);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#1b7e44;
+}
+header{
+    font-size: 30px;
+    color: rgb(202, 55, 195);
+}
+button{
+    float: right;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(124, 204, 204);
+    border-radius: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+div.mine{
+    
+    height:50vh;
+    background-color: rgb(121, 121, 173);
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+div.mine>p{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+div.mine>h1{
+    margin-top:30px;
+    margin-left:60px;
+    font-size:70px ;
+    text-align: center;
+}
+div.yes{
+   width: 30%;
+   background-color: aliceblue;
+   height: 100%;
+   float:right;
+
+}
+
+div.yes>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+div.two{
+    background-color: #1b7e44;
+    width: 100vh;
+    height: 40vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+div.two>h1{
+    text-align: center;
+    margin-top: 10px;
+}
+div.two>p{
+    font-size: 16px;
+    text-align: center;
+}
+div.two>img{
+
+    width: 150px;
+    height: 150px;
+    float: left;
+    justify-content: space-between;
+    white-space: 20px;
+}
+div.three{
+    background-color: #333;
+    width: 100vh;
+    height:40vh;
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 30px;
+    margin-right:150px ;
+}
+div.me{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(164, 78, 214);
+    border-radius: 30px;
+}
+div.form{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(69, 202, 156);
+    text-align: center;
+    border-radius: 30px;
+}
+div.form>p{
+    font-size: 25px;
+}
+input{
+    border: #333;
+    border-radius: 20px;
+    background-color: rgb(123, 123, 146);
+    width: 150px;
+    height:20px ;
+}
+div.me>p{
+    text-align: center;
+}
+div.me>h1{
+    text-align: center;
+}
+.button{
+    background-color: rgb(12, 88, 102);
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: rgb(32, 107, 25);
+    transition: all 0.1s ease 0s;
+}
+body{
+    background-color: rgb(187, 204, 160);
+}
